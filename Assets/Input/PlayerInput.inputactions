@@ -110,8 +110,8 @@
                 },
                 {
                     "name": "",
-                    "id": "b33fdf75-be13-4380-b6b4-47e4a6fd5611",
-                    "path": "<Gamepad>/leftStick",
+                    "id": "36016d08-30bc-478f-90ba-2a8d3608c50d",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "GP",
@@ -134,6 +134,17 @@
                     "name": "",
                     "id": "ee8eba10-6315-45e8-b577-5494b11ab534",
                     "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GP",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "128ca62b-1b2e-4a95-9857-2f2ebadb4a9f",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "GP",
@@ -198,8 +209,8 @@
                 },
                 {
                     "name": "",
-                    "id": "31809b52-6be6-4236-bef2-a9c9601e9729",
-                    "path": "<Gamepad>/rightStick",
+                    "id": "79baf6f8-0b46-466c-b2c9-496526a4b498",
+                    "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "GP",
@@ -335,6 +346,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K1",
+                    "action": "ToggleShotgun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5c38f97-249a-4f05-86e0-cb7a58c3d288",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "GP",
                     "action": "ToggleShotgun",
                     "isComposite": false,
                     "isPartOfComposite": false

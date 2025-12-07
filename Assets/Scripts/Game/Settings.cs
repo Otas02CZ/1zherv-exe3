@@ -123,6 +123,16 @@ public class Settings : MonoBehaviour
      *   Do not forget to set the Joining Behavior and the Player Prefab!
      */
     
+    public void OnPlayerJoined(PlayerInput playerInput)
+    {
+        AddPlayer(playerInput.gameObject);
+    }
+    
+    public void OnPlayerLeft(PlayerInput playerInput)
+    {
+        RemovePlayer(playerInput.gameObject);
+    }
+    
     /// <summary>
     /// Called when the script instance is first loaded.
     /// </summary>
